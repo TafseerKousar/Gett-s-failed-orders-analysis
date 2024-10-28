@@ -2,6 +2,11 @@
 
 This project investigates failed orders on Gett's corporate transportation platform, focusing on cancellations and rejections where customers did not successfully get a car. The analysis provides insights into why orders fail and identifies patterns in failed order distribution by time and location.
 
+## 📂 Data
+
+- `data_orders.csv`: Contains order details including timestamps, locations, and cancellation reasons.
+- `data_offers.csv`: Maps order IDs to offer IDs to identify failed offers.
+
 ## 📊 Project Tasks
 
 1. **Failure Reasons Analysis**  
@@ -34,11 +39,6 @@ This project investigates failed orders on Gett's corporate transportation platf
 - **Primary Failure Causes:** Identified leading causes of failed orders and times of day with the highest failure rates.
 - **Cancellation Trends:** Revealed patterns in cancellation times and ETA distributions, indicating areas for potential improvement in matching.
 - **High-Failure Locations:** Mapped geographic clusters with the highest failed orders to aid in strategic planning.
-
-## 📂 Data
-
-- `data_orders.csv`: Contains order details including timestamps, locations, and cancellation reasons.
-- `data_offers.csv`: Maps order IDs to offer IDs to identify failed offers.
 
 ---
 
